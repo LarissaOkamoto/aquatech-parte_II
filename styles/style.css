@@ -1,0 +1,217 @@
+/* Adicionar aqui toda a estilização criada para sua aplicação. */
+body{
+    margin:0;
+    font-family: sans-serif;
+}
+
+/* HEADER INICIO */
+
+.header{
+    background-color: black;
+    border-bottom: 3px solid #32b9cd;
+}
+
+.navbar{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #e3b062;
+    width: 400px;
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*
+    Padding: (com quatro parâmetros):width:
+        top right bottom left
+    Padding: (com somente dois parâmetros): 
+        top/bottom right/left*/
+
+    padding: 0 15px;
+}
+
+.navbar a{
+    color: #e3b062;
+    text-decoration: none;
+}
+
+.agora a{
+    color: #e3b062;
+    font-weight: bold;
+}
+
+/* indicação visual de qual página estou selecionando na navbar*/
+
+.titulo{
+    color: #32b9cd;
+}
+
+/* HEADER FIM*/
+
+/* LOGIN INICIO*/
+/* LOGIN - BANNER INICIO*/
+.login{
+    background-image: url(../assets/imgs/bg-jelly-fish-para_outras_pags.png);
+    background-size: cover;
+    height: 520px;
+}
+
+.login .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.login .container .card_card_login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:  10px 90px;
+    background-color: rgb(229, 229, 229);
+    font-family: sans-serif;
+    color: rgb(239, 118, 154);
+    border-radius: 10px;
+}
+
+.login .container .card_card_login h2{
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.login .container .card_card_login .formulario .campo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    font-weight: bold;
+    font-size: 14px;
+    width: 400px;
+}
+
+.login .container .card_card_login .formulario .campo span{
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.login .container .card_card_login .formulario .campo input{
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 25px;
+    border-radius:8px;
+    border-color: rgb(109, 181, 197);
+    border-style: solid;
+    text-align: center;
+    margin: 0px 0px 15px 0px;
+}
+
+.login .container .card_card_login .formulario button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 160px;
+    width: 100px;
+    height: 26px;
+    border-radius: 5px;
+    border-color: rgb(238, 19, 91);
+    border-style: solid;
+    background-color: rgb(238, 19, 91);
+    font-weight: bold;
+    font-family: sans-serif;
+    color: white;
+}
+
+/* LOGIN - BANNER FIM*/
+/*LOGIN FIM*/
+
+/*CADASTRO INICIO*/
+.cadastro{
+    background-image: url(../assets/imgs/bg-jelly-fish-para_outras_pags.png);
+    background-size: cover;
+    height: 520px;
+}
+
+.card_card_cadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:  10px 90px;
+    background-color: rgb(229, 229, 229);
+    font-family: sans-serif;
+    color: rgb(239, 118, 154);
+    border-radius: 10px;
+}
+
+.card_card_cadastro .formulario .campo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-direction: column;
+    align-items: left;
+    font-weight: bold;
+    font-size: 14px;
+    width: 400px;
+}
+
+.card_card_cadastro .campo span{
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.card_card_cadastro .formulario .campo input{
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 25px;
+    border-radius:8px;
+    border-color: rgb(109, 181, 197);
+    border-style: solid;
+    text-align: center;
+    margin: 0px 0px 15px 0px;
+}
+
+.card_card_cadastro .formulario button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 160px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: rgb(238, 19, 91);
+    border-style: solid;
+    background-color: rgb(238, 19, 91);
+    font-weight: bold;
+    font-family: sans-serif;
+    color: white;
+}
+
+/*CADASTRO FIM*/
+
+/* FOOTER INICIO */
+
+.footer{
+  background-color: #32b9cd;  
+}
+
+.footer .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    flex-direction: column;
+    padding: 50px 0;
+}
+/* FOOTER FIM */
